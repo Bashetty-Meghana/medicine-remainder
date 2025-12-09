@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Reminder - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="dashboard-header">
+            <h1>💊 Medicine Reminder Dashboard</h1>
+            <div class="user-info">
+                <span id="welcomeUser">Welcome, User</span>
+                <button onclick="logout()" class="btn btn-secondary">Logout</button>
+            </div>
+        </div>
+
+        <div class="dashboard-content">
+            <!-- Medicines Section -->
+            <div class="section">
+                <h2>My Medicines</h2>
+                
+                <!-- Add Medicine Form -->
+                <div class="card">
+                    <h3>Add New Medicine</h3>
+                    <form id="addMedicineForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="medicineName">Medicine Name *</label>
+                                <input type="text" id="medicineName" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="medicineDosage">Dosage</label>
+                                <input type="text" id="medicineDosage" name="dosage" placeholder="e.g., 500mg">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="medicineNotes">Notes</label>
+                            <textarea id="medicineNotes" name="notes" rows="2" placeholder="e.g., Take with food"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Medicine</button>
+                    </form>
+                </div>
+
+                <!-- Medicines List -->
+                <div class="card">
+                    <h3>Your Medicines</h3>
+                    <div id="medicinesList">
+                        <p class="loading">Loading medicines...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reminders Section -->
+            <div class="section">
+                <h2>Reminders</h2>
+                
+                <!-- Add Reminder Form -->
+                <div class="card">
+                    <h3>Add New Reminder</h3>
+                    <form id="addReminderForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reminderMedicine">Select Medicine *</label>
+                                <select id="reminderMedicine" name="medicineId" required>
+                                    <option value="">-- Select Medicine --</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="reminderDate">Date *</label>
+                                <input type="date" id="reminderDate" name="reminderDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reminderTime">Time *</label>
+                                <input type="time" id="reminderTime" name="reminderTime" required>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Reminder</button>
+                    </form>
+                </div>
+
+                <!-- Today's Reminders List -->
+                <div class="card">
+                    <h3>Today's Reminders</h3>
+                    <div id="remindersList">
+                        <p class="loading">Loading reminders...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

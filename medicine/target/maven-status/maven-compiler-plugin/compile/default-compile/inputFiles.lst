@@ -1,0 +1,17 @@
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\dao\MedicineDao.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\dao\ReminderDao.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\dao\UserDao.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\model\Medicine.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\model\Reminder.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\model\User.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\service\MedicineService.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\service\ReminderService.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\service\UserService.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\DeleteMedicineServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\DueRemindersServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\LoginServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\MarkReminderServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\MedicineServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\RegisterServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\servlet\ReminderServlet.java
+C:\Users\cnuba\OneDrive\Desktop\medicine\src\main\java\com\example\medireminder\util\DBConnection.java
